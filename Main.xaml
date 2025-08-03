@@ -219,7 +219,7 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="sum of two number in which takes input from user ans show in the msg box&#xD;&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1214.6666666666665,850" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="sum of two number in which takes input from user ans show in the msg box&#xD;&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1214.6666666666665,1026.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Object" Name="firstNumberString" />
       <Variable x:TypeArguments="x:Object" Name="secondNumberString" />
@@ -231,6 +231,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;started &quot;]" />
     <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Get the first number from the user" sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter the first number:" Title="First Number" TopMost="False">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:Object">[firstNumberString]</OutArgument>
